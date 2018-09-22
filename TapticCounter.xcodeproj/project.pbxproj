@@ -12,16 +12,20 @@
 		88FCA4182155A34A006B7641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA4162155A34A006B7641 /* Main.storyboard */; };
 		88FCA41A2155A34E006B7641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA4192155A34E006B7641 /* Assets.xcassets */; };
 		88FCA41D2155A34E006B7641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA41B2155A34E006B7641 /* LaunchScreen.storyboard */; };
+		88FCA4252155C4E3006B7641 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA4242155C4E3006B7641 /* Default-568h@2x.png */; };
+		88FCA4282155C7C7006B7641 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FCA4272155C7C7006B7641 /* BounceButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88FCA40F2155A34A006B7641 /* HapticCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FCA40F2155A34A006B7641 /* TapticCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapticCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FCA4122155A34A006B7641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88FCA4142155A34A006B7641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88FCA4172155A34A006B7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88FCA4192155A34E006B7641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FCA41C2155A34E006B7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88FCA41E2155A34E006B7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FCA41E2155A34E006B7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/josephward/Documents/SWIFTDEV/30 Days/Day-10 Taptic counter/TapticCounter/TapticCounter/Info.plist"; sourceTree = "<absolute>"; };
+		88FCA4242155C4E3006B7641 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88FCA4272155C7C7006B7641 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,8 @@
 		88FCA4062155A34A006B7641 = {
 			isa = PBXGroup;
 			children = (
-				88FCA4112155A34A006B7641 /* HapticCounter */,
+				88FCA4242155C4E3006B7641 /* Default-568h@2x.png */,
+				88FCA4112155A34A006B7641 /* TapticCounter */,
 				88FCA4102155A34A006B7641 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +51,32 @@
 		88FCA4102155A34A006B7641 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88FCA40F2155A34A006B7641 /* HapticCounter.app */,
+				88FCA40F2155A34A006B7641 /* TapticCounter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88FCA4112155A34A006B7641 /* HapticCounter */ = {
+		88FCA4112155A34A006B7641 /* TapticCounter */ = {
 			isa = PBXGroup;
 			children = (
 				88FCA4122155A34A006B7641 /* AppDelegate.swift */,
 				88FCA4142155A34A006B7641 /* ViewController.swift */,
 				88FCA4162155A34A006B7641 /* Main.storyboard */,
 				88FCA4192155A34E006B7641 /* Assets.xcassets */,
-				88FCA41B2155A34E006B7641 /* LaunchScreen.storyboard */,
 				88FCA41E2155A34E006B7641 /* Info.plist */,
+				88FCA41B2155A34E006B7641 /* LaunchScreen.storyboard */,
+				88FCA4272155C7C7006B7641 /* BounceButton.swift */,
 			);
-			path = HapticCounter;
-			sourceTree = "<group>";
+			name = TapticCounter;
+			path = "/Users/josephward/Documents/SWIFTDEV/30 Days/Day-10 Taptic counter/TapticCounter/TapticCounter";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88FCA40E2155A34A006B7641 /* HapticCounter */ = {
+		88FCA40E2155A34A006B7641 /* TapticCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88FCA4212155A34E006B7641 /* Build configuration list for PBXNativeTarget "HapticCounter" */;
+			buildConfigurationList = 88FCA4212155A34E006B7641 /* Build configuration list for PBXNativeTarget "TapticCounter" */;
 			buildPhases = (
 				88FCA40B2155A34A006B7641 /* Sources */,
 				88FCA40C2155A34A006B7641 /* Frameworks */,
@@ -79,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = HapticCounter;
+			name = TapticCounter;
 			productName = HapticCounter;
-			productReference = 88FCA40F2155A34A006B7641 /* HapticCounter.app */;
+			productReference = 88FCA40F2155A34A006B7641 /* TapticCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88FCA40A2155A34A006B7641 /* Build configuration list for PBXProject "HapticCounter" */;
+			buildConfigurationList = 88FCA40A2155A34A006B7641 /* Build configuration list for PBXProject "TapticCounter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88FCA40E2155A34A006B7641 /* HapticCounter */,
+				88FCA40E2155A34A006B7641 /* TapticCounter */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88FCA41D2155A34E006B7641 /* LaunchScreen.storyboard in Resources */,
+				88FCA4252155C4E3006B7641 /* Default-568h@2x.png in Resources */,
 				88FCA41A2155A34E006B7641 /* Assets.xcassets in Resources */,
 				88FCA4182155A34A006B7641 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +145,7 @@
 			files = (
 				88FCA4152155A34A006B7641 /* ViewController.swift in Sources */,
 				88FCA4132155A34A006B7641 /* AppDelegate.swift in Sources */,
+				88FCA4282155C7C7006B7641 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +293,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SKKXTGX6L;
-				INFOPLIST_FILE = HapticCounter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TapticCounter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.joethermal.HapticCounter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joethermal.TapticCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +311,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SKKXTGX6L;
-				INFOPLIST_FILE = HapticCounter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TapticCounter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.joethermal.HapticCounter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joethermal.TapticCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88FCA40A2155A34A006B7641 /* Build configuration list for PBXProject "HapticCounter" */ = {
+		88FCA40A2155A34A006B7641 /* Build configuration list for PBXProject "TapticCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88FCA41F2155A34E006B7641 /* Debug */,
@@ -326,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88FCA4212155A34E006B7641 /* Build configuration list for PBXNativeTarget "HapticCounter" */ = {
+		88FCA4212155A34E006B7641 /* Build configuration list for PBXNativeTarget "TapticCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88FCA4222155A34E006B7641 /* Debug */,
